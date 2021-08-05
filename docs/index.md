@@ -1,35 +1,35 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: Get Started
+actionText: Comienzo
 actionLink: /guide/
 
-altActionText: Learn More
+altActionText: Aprender más
 altActionLink: /guide/why
 
 features:
-  - title: 💡 Instant Server Start
-    details: On demand file serving over native ESM, no bundling required!
-  - title: ⚡️ Lightning Fast HMR
-    details: Hot Module Replacement (HMR) that stays fast regardless of app size.
-  - title: 🛠️ Rich Features
-    details: Out-of-the-box support for TypeScript, JSX, CSS and more.
-  - title: 📦 Optimized Build
-    details: Pre-configured Rollup build with multi-page and library mode support.
-  - title: 🔩 Universal Plugins
-    details: Rollup-superset plugin interface shared between dev and build.
-  - title: 🔑 Fully Typed APIs
-    details: Flexible programmatic APIs with full TypeScript typing.
-footer: MIT Licensed | Copyright © 2019-present Evan You & Vite Contributors
+  - title: 💡 Inicio instantáneo del servidor
+    details: Servicio de archivos bajo demanda a través de ESM nativo, ¡sin necesidad de bundling!
+  - title: ⚡️ HMR rápido como un rayo
+    details: Hot Module Replacement (HMR) que se mantiene rápido independientemente del tamaño de la app.
+  - title: 🛠️ Ricas funcionalidades
+    details: Soporte para TypeScript, JSX, CSS y más.
+  - title: 📦 Build optimizado
+    details: Compilación preconfigurada con Rollup, con soporte para el modo multipágina y modo biblioteca.
+  - title: 🔩 Plugins universales
+    details: Interfaz de plugins de Rollup-superset compartida entre dev y build.
+  - title: 🔑 APIs totalmente tipadas
+    details: APIs programáticas flexibles con tipado completo de TypeScript.
+footer: Licencia MIT | Copyright © 2019-presente Evan You & Vite Contributors
 ---
 
 <div class="frontpage sponsors">
-  <h2>Sponsors</h2>
+  <h2>Patrocinadores</h2>
   <a v-for="{ href, src, name, id } of sponsors" :href="href" target="_blank" rel="noopener" aria-label="sponsor-img">
     <img :src="src" :alt="name" :id="`sponsor-${id}`">
   </a>
   <br>
-  <a href="https://github.com/sponsors/yyx990803" target="_blank" rel="noopener">Become a sponsor on GitHub</a>
+  <a href="https://github.com/sponsors/yyx990803" target="_blank" rel="noopener">Ser patrocinador en GitHub</a>
 </div>
 
 <script setup>
